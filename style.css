@@ -39,30 +39,31 @@ footer{
 .description {
  background-color: coral;
  justify-content: space-between;
-
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-style: oblique;
+ 
 }
 .legenda {
 background-color: cornflowerblue;
 justify-content: space-between;
-display: flex;
-}
-.advice{
-    background-color: rgb(144, 214, 191);
-    justify-content: space-between;
-}
-p {
+font-style: oblique;
     color: #000000;
     margin: 0px;
     padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 body {
     background-color: rgb(99, 101, 194);
+    margin:0;
 }
 a{
     background-color: rgb(254, 254, 254);
-    font-style: italic;
+    
     font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Geneva, Verdana, sans-serif;
+    font-style: oblique;
+
 }
 .class{
     border: 10px solid rgb(255, 0, 0);
@@ -71,8 +72,9 @@ h2{
     font-style: oblique;
     font-size: 100px;
     align-items: center;
-    margin: 0px;
-    padding: 0px;
+    margin: 15px;
+    padding: 35px;
+    text-align: center;
 }
 .justify{
     background-color: chartreuse;
@@ -80,5 +82,14 @@ h2{
 .classs {
     border-radius: 50% ;
     border: 10px blue;
+    margin: 10px;
+    padding: 10px;
 }
+h1{
+margin: 0;
+}
+.advice{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Geneva, Verdana, sans-serif;
+    font-style: oblique;
 
+}
